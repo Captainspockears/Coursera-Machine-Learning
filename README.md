@@ -5,6 +5,6 @@ The solved assignments of the Coursera Machine Learning Course by Andrew NG. Thi
 
 ### Linear Regression
 
-1. Cost Function Algorithm - [Link](#/Week-2/machine-learning-ex1/ex1/computeCost.m)
-2. Gradient Descent Algorithm- [Link](#/Week-2/machine-learning-ex1/ex1/gradientDescent.m)
+1. Cost Function Algorithm - [Link](Week-2/machine-learning-ex1/ex1/computeCost.m)
+2. Gradient Descent Algorithm- [Link](Week-2/machine-learning-ex1/ex1/gradientDescent.m)
 
