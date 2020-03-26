@@ -21,11 +21,24 @@ grad = zeros(size(theta));
 %
 
 
+prediction = X*theta;
+prediction = sigmoid(prediction);
 
+for i=1:m,
+	J = J + y(i)*log(prediction(i)) + (1-y(i))*log(1-prediction(i));
+end
 
+J = (-1/m)*J;
 
+for i = 1:size(theta,1),
+    for j = 1:m,
 
+        grad(i) = grad(i) + (prediction(j)-y(j))*X(j,i);
 
+    end
+end
+
+grad = (1/m).*grad;
 
 % =============================================================
 
